@@ -1,0 +1,89 @@
+/*------------------------------------*\
+    #ALLGEMEIN
+\*------------------------------------*/
+
+
+*:focus {
+  outline: 0;
+}
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+.no-margin-right{
+  margin-right: 0;
+}
+
+hr{
+  margin: 2.5em 0
+}
+
+dl, ol, ul {
+  list-style-position: inside;
+}
+
+
+
+/*------------------------------------*\
+    #BADGES
+\*------------------------------------*/
+.badge.big{
+  font-size: 1em;
+}
+
+
+/*------------------------------------*\
+    #TABELLEN
+\*------------------------------------*/
+
+tr.highlight{
+  background: #5ea7c2!important;
+}
+tr.highlight td{
+  color: white;
+}
+
+
+
+/*------------------------------------*\
+    #HERO
+\*------------------------------------*/
+
+.hero{
+  background: #074e68;
+  padding: 5em 0;
+}
+.hero h1{
+  color: white;
+}
+
+
+
+/*------------------------------------*\
+    #STUKTUR
+\*------------------------------------*/
+
+.content{
+  padding-top: 2em;
+}
+
+
+
+/*------------------------------------*\
+    #GRID
+\*------------------------------------*/
+
+.row.debug{
+  background: #efefef;
+  margin-bottom: 15px;
+  line-height: 2rem;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.row.debug .columns:nth-child(odd){
+  background: #d9d9d9;
+}
+
+
+

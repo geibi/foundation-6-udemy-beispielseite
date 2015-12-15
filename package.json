@@ -1,0 +1,9 @@
+{
+  "name": "PROJECTNAME",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "3.x",
+    "gulp-livereload": "3.x",
+    "gulp-load-plugins": "0.x"
+  }
+}

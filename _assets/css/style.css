@@ -318,6 +318,9 @@ section{
     #WIDGET SOCIAL
 \*------------------------------------*/
 
+.widget-social__column{
+  text-align: center;
+}
 .widget-social__link{
   padding-top: 0!important;
   line-height: 1;

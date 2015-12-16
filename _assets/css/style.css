@@ -259,10 +259,13 @@ section{
   color: #888888;
 }
 .latest-blog-entries__item-title{
-  font-size: 20px;
+  font-size: 18px;
 }
 .latest-blog-entries__item-excerpt{
   font-size: 14px;
+}
+.latest-blog-entries__item-meta{
+  font-size: 12px;
 }
 .latest-blog-entries__item-read-more,
 .latest-blog-entries__item-read-more:hover
@@ -375,10 +378,10 @@ footer hr{
 .footer-menu{
   text-align: center;
 }
-.footer-menu li{
+li.footer-menu__item{
   display: inline-block;
 }
-.footer-menu a:hover{
+.footer-menu__link a:hover{
   color: white;
   text-decoration: underline;
 }

@@ -319,14 +319,14 @@ section{
 \*------------------------------------*/
 
 .widget-social__link{
-  text-align: center;
   padding-top: 0!important;
+  line-height: 1;
 }
 .widget-social__link:first-child{
   padding-left: 0!important;
 }
 .widget-social__fi-icon{
-  font-size: 50px;
+  font-size: 80px;
 }
 
 @media only screen and (min-width: 64.063em) { /* large */

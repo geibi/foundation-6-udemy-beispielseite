@@ -375,3 +375,7 @@ footer hr{
 .footer-menu li{
   display: inline-block;
 }
+.footer-menu a:hover{
+  color: white;
+  text-decoration: underline;
+}

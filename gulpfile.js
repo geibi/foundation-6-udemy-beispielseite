@@ -19,7 +19,7 @@ gulp.task('watch', function () {
 
   //try to limit to a smallest amount of files by declaring folders
   var otherFilesMaskArray = [
-    '*.php',
+    '*.html',
     'inc/**/*.php',
     '_assets/css/style.css',
     '_assets/css/pages/**/*.css',

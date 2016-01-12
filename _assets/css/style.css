@@ -374,6 +374,9 @@ section{
   padding: 20px;
   box-shadow: 2px 4px 10px rgba(151, 151, 151, 0.3);
 }
+.contest__wrapper h3{
+  color: #f16858;
+}
 .contest__textarea-form-message{
   height: 150px;
 }
@@ -436,6 +439,16 @@ li.footer-menu__item{
     background-image: url("../images/moodParallax.jpg");
     background-size: cover;
     background-attachment: fixed;
-    min-height: 350px;
+    padding: 3em;
+    text-align: center;
+  }
+  .moodParallax h1{
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+    font-size: 70px;
+    color: white;
+    background: rgba(0,0,0,0.1);
+    padding: 1em;
+    display: inline-block;
+    margin: 1em auto;
   }
 }

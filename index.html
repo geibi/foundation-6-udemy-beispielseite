@@ -327,7 +327,7 @@
 
       <!-- MOOD PARALLAX -->
       <section class="moodParallax show-for-large">
-
+        <h1>Gewinnen Sie Urlaub!</h1>
       </section>
 
 
@@ -347,9 +347,10 @@
               <div class="row">
 
                 <div class="small-12 medium-8 columns">
+                  <h3>Ab in die Karibik!</h3>
                   <p>
                     Nehmen Sie an unserem Gewinnspiel teil und gewinnen Sie eine tolle <span data-tooltip class="has-tip" title="Wir schicken Sie auf eine einwöchige Kreufahrt in die Karibik!.">Reise</span>!<br />
-                    Füllen Sie dazu einfach das folgende Formular aus und akzeptieren Sie unsere AGB<br />
+                    Füllen Sie dazu einfach das folgende Formular aus und akzeptieren Sie unsere AGB.<br />
                     Die Gewinner werden dann umgehen benachrichtigt.
                   </p>
                   <p>Viel Glück!</p>
@@ -421,7 +422,7 @@
                     </div>
 
                     <div class="formfield-row">
-                      <label>Ihr E-Mail Adresse</label>
+                      <label>Ihre E-Mail Adresse</label>
                       <input type="email" placeholder="E-Mail Adresse" required />
                       <span class="form-error">Bitte geben Sie eine gültige E-Mail Adresse ein.</span>
                     </div>
@@ -430,7 +431,7 @@
                       <p>Wie viel Geld geben Sie pro Monat für Fotoequipment aus?</p>
                       <div class="row">
                         <div class="small-6 columns">
-                          <div class="slider" data-slider data-initial-start="50"  data-end="1000">
+                          <div class="slider" data-slider data-initial-start="50"  data-end="2000">
                             <span class="slider-handle"  data-slider-handle role="slider" aria-controls="moneySliderOutput"></span>
                             <span class="slider-fill" data-slider-fill></span>
                           </div>
@@ -450,13 +451,14 @@
                   <div class="small-12 medium-6 columns">
 
                     <div class="formfield-row">
-                      <label>Ihr Einkommen</label>
+                      <label>Ihr Einkommen pro Monat</label>
                       <select>
                         <option value="0">--- Bitte auswählen ---</option>
                         <option value="bis-1000">bis 1000 €</option>
                         <option value="bis-2000">bis 2000 €</option>
                         <option value="bis-3000">bis 3000 €</option>
                         <option value="bis-5000">bis 5000 €</option>
+                        <option value="mehr-als-5000">mehr als 5000 €</option>
                       </select>
                     </div>
 
@@ -465,13 +467,21 @@
                       <textarea placeholder="Ihre Nachricht" class="contest__textarea-form-message"></textarea>
                     </div>
 
-                    <div class="float-right">
-                      <input type="submit" class="button no-margin-right" value="Absenden"/>
-                    </div>
-
                   </div>
 
 
+                </div><!-- end .row -->
+
+                <div class="row">
+                  <div class="small-12 medium-6 columns">
+                    <input type="checkbox" id="check-agb" required />
+                    <label for="check-agb">Ich akzeptiere die AGB</label>
+                  </div>
+                  <div class="small-12 medium-6 columns">
+                    <div class="float-right">
+                      <input type="submit" class="button no-margin-right" value="Absenden"/>
+                    </div>
+                  </div>
                 </div>
 
               </form>
@@ -490,19 +500,22 @@
             <li class="accordion-item is-active">
               <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Informationen zum Reiseziel</a>
               <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium ad aspernatur, illum, ipsa natus nihil nulla odio officiis qui reprehenderit. Dolorum hic modi, nihil quas quis repudiandae rerum?
+                <p>Los geht es mit dem Bus ab Berlin, München, Frankfurt oder Düsseldorf.</p>
+                <p>Danach lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium ad aspernatur, illum, ipsa natus nihil nulla odio officiis qui reprehenderit.</p>
               </div>
             </li>
             <li class="accordion-item">
               <a href="#panel2d" role="tab" class="accordion-title" id="panel2d-heading" aria-controls="panel2d">Übernachtungsmöglichkeiten</a>
               <div id="panel2d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel2d-heading">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam at consequuntur dolor est ex ipsa iure minus nam nostrum praesentium quas quo quos, soluta ut. Aliquam beatae consectetur sit.
+                <p>Eine ganze Reihe Hochklassiger Hotels steht Ihnen in einem Umkreis von 5 km zur Verfügung.</p>
+                <p>Strandnähe, lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam at consequuntur dolor est ex ipsa iure minus nam nostrum praesentium quas quo quos, soluta ut.</p>
               </div>
             </li>
             <li class="accordion-item">
               <a href="#panel3d" role="tab" class="accordion-title" id="panel3d-heading" aria-controls="panel3d">Anfahrt</a>
               <div id="panel3d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel3d-heading">
-                lorem
+                <p>Nach Ankunft am Flughafen, steht Ihnen unser Shuttle-Service zur Verfügung.</p>
+                <p>Sollten Sie aber lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque autem consequuntur exercitationem minus nemo nihil rerum sapiente suscipit voluptatibus.</p>
               </div>
             </li>
           </ul>

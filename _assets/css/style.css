@@ -403,6 +403,13 @@ section{
   height: 150px;
 }
 
+/* infos accorion */
+.accordion-contest-infos .accordion-title{
+  font-weight: bold;
+  font-family: 'Open Sans', Arial, Verdana, sans-serif;
+  font-size: 18px;
+}
+
 
 
 /*------------------------------------*\

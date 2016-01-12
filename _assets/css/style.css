@@ -41,6 +41,10 @@ h4
   font-weight: 700;
 }
 
+.lightInvalidInputs .is-invalid-input{
+  background: white;
+  color: #0a0a0a;
+}
 
 
 /*------------------------------------*\
@@ -359,12 +363,6 @@ section{
   font-size: 80px;
 }
 
-@media only screen and (min-width: 64.063em) { /* large */
-  .widget-social__link{
-    text-align: left;
-  }
-}
-
 
 
 /*------------------------------------*\
@@ -408,4 +406,36 @@ li.footer-menu__item{
 .footer-menu__link a:hover{
   color: white;
   text-decoration: underline;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MEDIA QUERIES
+\*------------------------------------*/
+
+
+@media only screen and (min-width: 64.063em) { /* large */
+
+  /*------------------------------------*\
+    #WIDGET SOCIAL
+  \*------------------------------------*/
+
+  .widget-social__link{
+    text-align: left;
+  }
+
+
+  /*------------------------------------*\
+    #MOOD PARALLAX
+  \*------------------------------------*/
+
+  .moodParallax{
+    background-image: url("../images/moodParallax.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 350px;
+  }
 }

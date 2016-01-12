@@ -120,7 +120,7 @@ h4
 \*------------------------------------*/
 
 .off-canvas{
-  padding: 13px 20px;
+  padding: 40px 10px;
   background: #f16858;
   height: 100vh;
 }
@@ -136,6 +136,17 @@ h4
 }
 .off-canvas .close-button{
   color: white;
+}
+.off-canvas .is-drilldown-submenu-parent>a::after{
+  border-color: transparent transparent transparent white;
+}
+
+/* Submenu */
+.off-canvas .is-drilldown-submenu{
+  background: #f16858;
+}
+.off-canvas .js-drilldown-back::before{
+  border-color: transparent white transparent transparent;
 }
 
 

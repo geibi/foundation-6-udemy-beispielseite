@@ -23,17 +23,26 @@
       <button class="close-button" aria-label="Close menu" type="button" data-close="">
         <span aria-hidden="true">×</span>
       </button>
-      <ul class="mobile-ofc vertical menu">
-        <li class="title">Kategorien</li>
-        <li><a href="#">Mode</a></li>
-        <li><a href="#">Sport</a></li>
-        <li><a href="#">Natur</a></li>
-        <li><a href="#">Technik</a></li>
-        <li><a href="#">Tiere</a></li>
-        <li class="title">Blog</li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Tutorials</a></li>
-        <li><a href="#">Magazin</a></li>
+      <ul class="mobile-ofc vertical menu" data-drilldown>
+        <li class="title has-submenu">
+          <a href="#">Kategorien</a>
+
+          <ul class="menu vertical">
+            <li><a href="#">Mode</a></li>
+            <li><a href="#">Sport</a></li>
+            <li><a href="#">Natur</a></li>
+            <li><a href="#">Technik</a></li>
+            <li><a href="#">Tiere</a></li>
+          </ul>
+        </li>
+        <li class="title has-submenu">
+          <a href="#">Blog</a>
+
+          <ul class="menu vertical">
+            <li><a href="#">News</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Magazin</a></li>
+          </ul>
       </ul>
     </div>
 
@@ -41,7 +50,7 @@
     <!-- RESPONSIVE MENÜ -->
     <div class="title-bar hide-for-medium" data-toggle="offCanvas">
       <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
+      <div class="title-bar-title">Menü</div>
     </div>
 
 

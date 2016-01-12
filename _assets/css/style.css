@@ -203,6 +203,19 @@ h4
   background: #efefef;
 }
 
+
+
+/*------------------------------------*\
+    #FEATHERLIGHT JS GALLERY
+\*------------------------------------*/
+
+.featherlight .featherlight-content{
+  overflow: hidden;
+}
+
+
+
+
 @media screen and (max-width: 39.9375em) { /* small */
 
   .button-group .info-buttons__button {

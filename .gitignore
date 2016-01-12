@@ -2,4 +2,5 @@
 .gitignore
 /node_modules
 /.idea
+_kursmaterial
 .DS_STORE

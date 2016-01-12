@@ -375,11 +375,11 @@ section{
   text-align: center;
 }
 .widget-social__link{
-  padding-top: 0!important;
+  padding-top: 0;
   line-height: 1;
 }
 .widget-social__link:first-child{
-  padding-left: 0!important;
+  padding-left: 0;
 }
 .widget-social__fi-icon{
   font-size: 80px;
